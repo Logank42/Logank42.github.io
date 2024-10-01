@@ -1,5 +1,4 @@
 body {
-    font-family: "Monaco";
     color: #ffffff;
-    background-color: #020115;
+    background: linear-gradient(to right, #220115, #000000);
 }
