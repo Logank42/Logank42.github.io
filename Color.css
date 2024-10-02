@@ -3,6 +3,6 @@ body {
     background: linear-gradient(to left, #2f0e50, #280115);
 }
 img {
-    background: linear-gradient(to left, #025a02, #8ecd0f, #ffffff);
+    background: linear-gradient(to right, #025a02, #8ecd0f, #ffffff);
     padding: 5px;
 }
