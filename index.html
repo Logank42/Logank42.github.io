@@ -22,6 +22,17 @@
         }
     </style>
     <link rel="stylesheet" href="Colors.css"/>
+    <script>
+        function displayWelcomeMessage() {
+            const name = prompt("What's your name?");
+            if (name) {
+                alert(`Welcome to my homepage, ${name}!`);
+            }
+        }
+        window.onload = function() {
+            displayWelcomeMessage();
+	};
+    </script>
     <title>LoganK About Me</title>
 </head>
 <body>
