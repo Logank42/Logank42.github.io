@@ -23,10 +23,23 @@
     </style>
     <link rel="stylesheet" href="Colors.css"/>
     <script>
+        function getFortune() {
+    const fortunes = [
+        "A duck is going to burn down your house.",
+        "You will get 50% on your next test.",
+        "Both sides of your pillow will be warm tonight.",
+        "Your sock will be wet all day.",
+        "You better watch out for pooping birds."
+    ];
+    
+    const randomIndex = Math.floor(Math.random() * fortunes.length);
+    
+    alert(fortunes[randomIndex]);
+}
         function displayWelcomeMessage() {
             const name = prompt("What's your name?");
             if (name) {
-                alert(`Welcome to my homepage, ${name}!`);
+                alert(`You should be carful what you do ${name}!`);
             }
         }
         window.onload = function() {
@@ -41,5 +54,6 @@
     <p>I am Logan Kirkpatrick, and I am in the warren tech cyber security program. I have played lacrosse my whole life and recently decided I want to learn how to code. I am starting to pick up on it but its difficult. I am excited as I am learning more and am striving to get a better understanding.</p>
     <p>Click the duck for more:</p>
     <p><a href="aboutme.html"><img src="Duck.jpg" alt="An extremely cool duck with cool sunglasses looking to the left" width="500" height="300"></a></p>
+    <button onclick="getFortune()">You should click here</button>
 </body>
 </html>
